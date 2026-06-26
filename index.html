@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Not Found Studio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="img/icon.png" type="image/x-icon" />
+  <script src="script.js" defer></script>
+
+</head>
+<body>
+  <div class="page-transition" id="pageTransition"></div>
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <img
+          src="img/logo.png"
+          alt="Not Found Studio"
+          />
+        </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#quienes"   class="nav-link">Quiénes Somos</a>
+        <a href="#mision"    class="nav-link">Misión y Visión</a>
+        <a href="#equipo"    class="nav-link">Equipo</a>
+        <a href="#proyectos" class="nav-link">Proyectos</a>
+        <a href="#contacto"  class="nav-link">Contáctanos</a>
+        <a href="proyecto.html" class="nav-link nav-link--project">Calles con historia</a>
+      </nav>
+
+      <!-- BOTÓN HAMBURGUESA (móvil) -->
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+ <section class="hero" id="hero">
+    <div class="hero-deco deco-1"></div>
+    <div class="hero-deco deco-2"></div>
+
+    <div class="container">
+      <div class="row justify-center">
+        <div class="col col-8 hero-content">
+          <p class="hero-welcome">Bienvenidos</p>
+          <h1 class="hero-title">Not Found<br /><span>Studio</span></h1>
+          <p class="hero-desc">
+            Somos un equipo creativo apasionado por el diseño, la tecnología y la cultura.
+            Creamos experiencias digitales que conectan historias con personas.
+          </p>
+          <div class="hero-cta">
+            <a href="#quienes" class="btn btn-primary">
+              Conócenos <i class="fas fa-arrow-down"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="quienes" id="quienes">
+    <div class="container">
+      <div class="row align-center">
+        <div class="col col-6 reveal">
+          <span class="section-label">Quiénes Somos</span>
+          <h2>El error que se convierte en diseño</h2>
+          <p>
+            Not Found Studio es un colectivo de diseño gráfico enfocado en la creación de 
+            piezas visuales informativas que exploran, documentan y comunican la cotidianidad social. 
+          </p>
+          <p>
+            Este colectivo surge como un espacio de investigación visual; donde el diseño funciona como medio para 
+            interpretar realidades, preservar la memoria colectiva y visibilizar el 
+            origen histórico y cultural de las comunidades; teniendo como punto de partida 
+            el error, la ausencia y lo no registrado; en cada una de sus piezas grafica
+          </p>
+          <a href="#equipo" class="btn btn-dark">
+            Conoce al equipo <i class="fas fa-users"></i>
+          </a>
+        </div>
+        <div class="col col-6 reveal">
+          <div class="img-wrapper">
+            <img
+              src="img/perfil.png" alt="Quiénes Somos"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mision" id="mision">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="col col-8 section-header reveal">
+          <span class="section-label">Propósito</span>
+          <h2>Misión y Visión</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-6 reveal">
+          <div class="mv-card mision-card">
+            <div class="mv-icon"><i class="fas fa-bullseye"></i></div>
+            <h3>Misión</h3>
+            <p>
+              Not Found Studio tiene como misión desarrollar piezas gráficas informativas
+              que exploren, documenten y comuniquen la cotidianidad social, utilizando el
+              diseño como herramienta de investigación, memoria y divulgación cultural. 
+            </p>
+            <ul class="mv-list">
+              <li><i class="fas fa-check-circle"></i> Diseño con propósito</li>
+              <li><i class="fas fa-check-circle"></i> Comunicación auténtica</li>
+              <li><i class="fas fa-check-circle"></i> Impacto cultural real</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col col-6 reveal">
+          <div class="mv-card vision-card">
+            <div class="mv-icon"><i class="fas fa-eye"></i></div>
+            <h3>Visión</h3>
+            <p>
+              Not Found Studio busca consolidarse como un referente en diseño gráfico investigativo 
+              y cultural a nivel regional, reconocido por resignificar la memoria social a través de 
+              propuestas visuales que conectan a las comunidades con su historia, su territorio y su identidad.
+            </p>
+            <ul class="mv-list">
+              <li><i class="fas fa-check-circle"></i> Referentes regionales</li>
+              <li><i class="fas fa-check-circle"></i> Innovación</li>
+              <li><i class="fas fa-check-circle"></i> Memoria e Historia</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="equipo" id="equipo">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="col col-10 section-header reveal">
+          <span class="section-label">Integrantes</span>
+          <h2>Nuestro Equipo</h2>
+          <p class="section-sub">El talento detrás de cada proyecto</p>
+        </div>
+      </div>
+
+      <div class="row justify-center team-row">
+        <div class="col col-4 reveal">
+          <div class="team-card">
+            <div class="team-photo">
+              <img
+                src="img/equipo1.jpg"
+                alt="Nathalia lossada"
+              />
+              <div class="team-overlay">
+                <a href="https://www.instagram.com/nlossada?igsh=bnplN2xuNHA5bGJr" class="team-link" aria-label="Instagram de Nathalia">
+                  <i class="fas fa-envelope"></i>
+                </a>
+              </div>
+            </div>
+            <h4>Nathalia Lossada</h4>
+            <span class="team-role">Dirección Creativa y Diseño editorial</span>
+          </div>
+        </div>
+
+        <div class="col col-4 reveal">
+          <div class="team-card">
+            <div class="team-photo">
+              <img
+                src="img/equipo2.jpg"
+                alt="Beatriz López"
+              />
+              <div class="team-overlay">
+                <a href="https://www.instagram.com/bea_adrix?igsh=NGtjNWd2dTVrZHo2" class="team-link" aria-label="instagram de Beatriz">
+                  <i class="fas fa-envelope"></i>
+                </a>
+              </div>
+            </div>
+            <h4>Beatriz López</h4>
+            <span class="team-role">Redacción de textos y Diseño UX/UI</span>
+          </div>
+        </div>
+
+        <div class="col col-4 reveal">
+          <div class="team-card">
+            <div class="team-photo">
+              <img
+                src="img/equipo3.jpg"
+                alt="Paula Avella"
+              />
+              <div class="team-overlay">
+                <a href="https://www.instagram.com/pautinament3?igsh=bTRzOGg0ZjN5amI3" class="team-link" aria-label="instagram de Paula">
+                  <i class="fas fa-envelope"></i>
+                </a>
+              </div>
+            </div>
+            <h4>Paula Avella</h4>
+            <span class="team-role">Empaques y Edición de imagenes</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-center team-row">
+        <div class="col col-4 reveal">
+          <div class="team-card">
+            <div class="team-photo">
+              <img
+                src="img/equipo4.jpg"
+                alt="Daniel Lasso"
+              />
+              <div class="team-overlay">
+                <a href="https://www.instagram.com/dan_d4x_?igsh=Ym0zbWVmbXpodW9n&utm_source=qr" class="team-link" aria-label="instagram de Daniel">
+                  <i class="fas fa-envelope"></i>
+                </a>
+              </div>
+            </div>
+            <h4>Daniel Lasso</h4>
+            <span class="team-role">Ilustración y Fotografía</span>
+          </div>
+        </div>
+
+        <div class="col col-4 reveal">
+          <div class="team-card">
+            <div class="team-photo">
+              <img
+                src="img/equipo5.jpg"
+                alt="Jhoan Garzón"
+              />
+              <div class="team-overlay">
+                <a href="https://www.instagram.com/ribbit_melon?igsh=cm5mOG1vd2Rkbng2" class="team-link" aria-label="instagram de Jhoan">
+                  <i class="fas fa-envelope"></i>
+                </a>
+              </div>
+            </div>
+            <h4>Jhoan Garzón</h4>
+            <span class="team-role">Ilustración</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="proyectos" id="proyectos">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="col col-8 section-header reveal">
+          <span class="section-label">Portafolio</span>
+          <h2>Proyectos</h2>
+          <p class="section-sub">Ideas que se convierten en realidad</p>
+        </div>
+      </div>
+      <div class="row reveal">
+        <div class="col col-12">
+          <div class="project-card">
+
+            <div class="project-info">
+              <span class="project-tag">Cultura y Memoria</span>
+              <h3>Calles con Historia</h3>
+              <p>
+                Un recorrido visual e interactivo por las calles más emblemáticas de la ciudad,
+                recuperando memorias, anécdotas y personajes que tejieron el tejido urbano.
+                Una fusión de fotografía, cartografía y relato oral digitalizado.
+              </p>
+              <ul class="project-tags">
+                <li>Arquitectura Colonial</li>
+                <li>La Candelaria y Santa Fe</li>
+                <li>Conservación y Conciencia</li>
+              </ul>
+              <a href="proyecto.html" class="btn btn-primary project-btn">
+                Ver Proyecto <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+
+            <div class="project-img">
+              <img
+                src="img/proyecto.jpg"
+                alt="Calles con Historia"
+              />
+              <div class="project-number">01</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="contacto" id="contacto">
+    <div class="container">
+      <div class="row align-start">
+
+        <div class="col col-4 contact-info reveal">
+          <span class="section-label">Hablemos</span>
+          <h2>Contactos</h2>
+          <p>
+            ¿Tienes un proyecto en mente? Nos encantaría escucharte.
+            Escríbenos y te respondemos a la brevedad.
+          </p>
+          <div class="contact-details">
+            <!-- Cambia el correo, ciudad y usuario de Instagram -->
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>proyecto.notfound@gmail.com</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Bogotá, Colombia</span>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-instagram"></i>
+              <span>@notfoundstudio</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-8 reveal">
+          <div class="contact-form">
+            <form id="contactForm"
+            action="https://formspree.io/f/xjgqybzd"
+            method="POST"
+            novalidate>
+
+            <input type="hidden" name="_subject" value="Nuevo mensaje — Calles con Historia" />
+            <input type="hidden" name="_language" value="es" />
+
+
+              <div class="row form-row">
+                <div class="col col-6 form-group">
+                  <label for="nombre">Nombre</label>
+                  <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+                  <span class="error-msg" id="error-nombre"></span>
+                </div>
+                <div class="col col-6 form-group">
+                  <label for="apellido">Apellido</label>
+                  <input type="text" id="apellido" name="apellido" placeholder="Tu apellido" required />
+                  <span class="error-msg" id="error-apellido"></span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="correo">Correo electrónico</label>
+                <input type="email" id="correo" name="correo" placeholder="tu@correo.com" required />
+                <span class="error-msg" id="error-correo"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntanos sobre tu proyecto..." required></textarea>
+                <span class="error-msg" id="error-mensaje"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary full-width">
+                Enviar mensaje <i class="fas fa-paper-plane"></i>
+              </button>
+              <div class="form-success" id="formSuccess">
+                <i class="fas fa-check-circle"></i>
+                ¡Mensaje enviado con éxito! Te responderemos pronto.
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row align-center justify-between footer-inner">
+        <p>&copy; 2026 Not Found Studio. Todos los derechos reservados.</p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/not.found.st?igsh=ZXUxaDUyYTJwb2t6" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calles con Historia — Not Found Studio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="proyecto.css" />
+  <link rel="icon" href="img/icon1.png" type="image/x-icon" />
+  <script src="proyecto.js" defer></script>
+</head>
+<body class="proyecto-page">
+  <div class="page-transition" id="pageTransition"></div>
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+
+      <a href="#proy-hero" class="nav-logo">
+        <img src="img/logo-proyecto.png" alt="Calles con Historia"/>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#arquitectura"  class="nav-link">Arquitectura</a>
+        <a href="#calles"        class="nav-link">Calles</a>
+        <a href="#paco"          class="nav-link">Paco Mascota</a>
+        <a href="#libro"         class="nav-link">Libro</a>
+        <a href="#merch"         class="nav-link">Merchandising</a>
+        <a href="#contacto-proy" class="nav-link">Contacto</a>
+        <a href="index.html"     class="nav-link nav-link--back">
+          <i class="fas fa-arrow-left"></i> Inicio
+        </a>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="proy-hero" id="proy-hero">
+    <div class="hero-slider-wrapper">
+      <div class="slider-track" id="sliderTrack">
+        <div class="slide">
+          <img src="img/slide1.jpg" alt="museo"/>
+        </div>
+        <div class="slide">
+          <img src="img/slide2.jpg" alt="call"/>
+        </div>
+        <div class="slide">
+          <img src="img/slide3.jpg" alt="plaza"/>
+        </div>
+        <div class="slide">
+          <img src="img/slide4.jpg" alt="iglesia"/>
+        </div>
+      </div>
+
+      <button class="slider-btn slider-prev" id="sliderPrev" aria-label="Anterior">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <button class="slider-btn slider-next" id="sliderNext" aria-label="Siguiente">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+      <div class="slider-dots" id="sliderDots"></div>
+    </div>
+
+    <div class="proy-hero-content">
+      <div class="breadcrumb">
+        <a href="index.html"><i class="fas fa-home"></i> Not Found Studio</a>
+        <span>/</span>
+        <span>Calles con Historia</span>
+      </div>
+
+      <p class="hero-welcome">Cultura y Diseño</p>
+      <h1 class="proy-hero-title titulo">Calles con<br /><span>Historia</span></h1>
+      <p class="proy-hero-desc">
+        Un recorrido interactivo por La Candelaria y Santa Fe que combina mapas, ilustraciones 
+        y relatos para descubrir las historias ocultas detrás de sus calles y lugares emblemáticos. 
+        Una experiencia que conecta a los visitantes con el patrimonio y la memoria de Bogotá de forma dinámica y participativa.
+      </p>
+      <div class="proy-hero-cta">
+        <a href="#arquitectura" class="p-btn p-btn-primary">
+          Explorar <i class="fas fa-arrow-down"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-stats">
+      <div class="stat-item">
+        <span class="stat-num">50+</span>
+        <span class="stat-label">Calles documentadas</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num">400+</span>
+        <span class="stat-label">Años de historia</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num">200+</span>
+        <span class="stat-label">Fotografías</span>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="arquitectura" id="arquitectura">
+    <div class="p-container">
+      <div class="p-row p-align-center">
+        <div class="p-col-6 proy-text p-reveal">
+          <span class="p-section-label">Patrimonio</span>
+          <h2> Arquitectura en Bogotá</h2>
+          <p>
+            La arquitectura de La Candelaria y Santa Fe refleja la evolución histórica y cultural de Bogotá. 
+            En La Candelaria predominan las construcciones coloniales y republicanas, caracterizadas por fachadas 
+            coloridas, balcones de madera, patios interiores y calles empedradas que conservan el trazado original 
+            de la ciudad. Por su parte, Santa Fe integra edificaciones históricas con arquitectura moderna, creando 
+            un paisaje urbano diverso donde conviven iglesias, instituciones culturales, viviendas tradicionales
+            y nuevos desarrollos urbanos.
+          </p>
+          <p>
+            Esta combinación de estilos convierte a ambas localidades en un valioso patrimonio 
+            arquitectónico que permite comprender la transformación de Bogotá desde sus orígenes hasta la actualidad.
+          </p>
+          <div class="proy-features">
+            <div class="feature-item">
+              <i class="fas fa-landmark"></i>
+              <div>
+                <strong>Edificaciones históricas</strong>
+                <p>Catalogadas y documentadas con detalle</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-camera"></i>
+              <div>
+                <strong>Registro fotográfico</strong>
+                <p>Archivos visuales de alta resolución</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-map"></i>
+              <div>
+                <strong>Cartografía urbana</strong>
+                <p>Mapas interactivos por barrio y época</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-col-6 proy-img p-reveal">
+          <div class="p-img-wrapper">
+            <img src="img/arquitectura.jpg" alt="Arquitectura en Bogotá"/>
+          </div>
+          <div class="floating-card">
+            <i class="fas fa-building"></i>
+            <div>
+              <strong>+50</strong>
+              <span>Edificaciones catalogadas</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="calles" id="calles">
+    <div class="p-container">
+
+      <div class="p-row p-justify-center">
+        <div class="p-col-8 p-section-header p-reveal">
+          <span class="p-section-label">Narrativa</span>
+          <h2>Calles con Historia</h2>
+          <p class="p-section-sub">La ciudad como recuerdo vivo.</p>
+        </div>
+      </div>
+
+      <div class="p-row">
+        <div class="p-col-12">
+          <div class="calles-grid">
+
+            <div class="calle-card p-reveal">
+              <div class="calle-img">
+                <img src="img/calle1.jpg" alt="la candelaria"/>
+                <div class="calle-year">1538</div>
+              </div>
+              <div class="calle-info">
+                <h4>La Candelaria</h4>
+                <p>La Candelaria es el corazón histórico de Bogotá, donde nació la ciudad y 
+                  aún se conservan sus calles coloniales, testigos 
+                  de la independencia y la memoria cultural de Colombia. </p>
+                <a href="https://www.lacandelaria.gov.co/" class="calle-link">Leer más <i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div class="calle-card p-reveal">
+              <div class="calle-img">
+                <img src="img/calle2.jpg" alt="santa fe"/>
+                <div class="calle-year">1538</div>
+              </div>
+              <div class="calle-info">
+                <h4>Santa Fé</h4>
+                <p>Santa Fe es uno de los sectores más antiguos de Bogotá, 
+                  clave en la formación de la ciudad, donde se mezclan historia, 
+                  tradición y edificios que reflejan su papel en el 
+                  desarrollo político y cultural del país. </p>
+                <a href="https://www.santafe.gov.co/" class="calle-link">Leer más <i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div class="calle-card p-reveal">
+              <div class="calle-img">
+                <img src="img/calle3.jpg" alt="centro histórico"/>
+                <div class="calle-year">1963</div>
+              </div>
+              <div class="calle-info">
+                <h4>Centro HIstorico</h4>
+                <p>Centro Histórico de Bogotá es el núcleo donde nació la ciudad, 
+                  un lugar que conserva la memoria de la historia colonial, la independencia 
+                  y la evolución de Colombia en sus calles, plazas y edificios emblemáticos. </p>
+                <a href="https://visitbogota.co/es/que-hacer-en-bogota/cultura" class="calle-link">Leer más <i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="paco" id="paco">
+    <div class="p-container">
+      <div class="p-row p-align-center">
+
+        <div class="p-col-6 proy-img p-reveal">
+          <div class="paco-img-wrapper">
+            <img src="img/paco.jpg" alt="Paco, mascota del proyecto"/>
+          </div>
+          <div class="paco-badge">
+            <i class="fas fa-paw"></i>
+            <span>Mascota oficial</span>
+          </div>
+        </div>
+
+        <div class="p-col-6 proy-text p-reveal">
+          <span class="p-section-label">Identidad</span>
+          <h2>Paco, el copetón</h2>
+          <p>
+            Inspirado en el copetón, una de las aves más representativas de Bogotá, 
+            Paco es un personaje curioso, aventurero y amante de la historia. A través
+             de sus recorridos por las calles de La Candelaria y Santa Fe, invita a 
+             descubrir los relatos, lugares y tradiciones que dan vida al patrimonio 
+             cultural de la ciudad. 
+          </p>
+          <p>
+            Con su espíritu explorador, Paco se convierte en el guía ideal para conectar el 
+            pasado con el presente de una forma divertida e interactiva.
+          </p>
+          <div class="paco-traits">
+            <span class="trait"><i class="fas fa-paw"></i> Curioso</span>
+            <span class="trait"><i class="fas fa-heart"></i> Aventurero</span>
+            <span class="trait"><i class="fas fa-map-pin"></i> Bogotano</span>
+            <span class="trait"><i class="fas fa-star"></i> Divertido</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="libro" id="libro">
+    <div class="p-container">
+      <div class="p-row p-align-center">
+
+        <div class="p-col-6 proy-text p-reveal">
+          <span class="p-section-label">Publicación</span>
+          <h2>Libro - Calles con Historia</h2>
+          <p>
+            <em>Calles con Historia</em> no es solo un proyecto digital. Es también una publicación
+            física que reúne fotografías, relatos orales transcritos y mapas ilustrados de los
+            barrios más emblemáticos de Bogotá.
+          </p>
+          <p>
+            Diseñado con tipografía cuidada y una paleta editorial que evoca la arquitectura
+            republicana, el libro es un objeto de diseño en sí mismo.
+          </p>
+          <div class="libro-specs">
+            <div class="spec-item">
+              <span class="spec-val">180</span>
+              <span class="spec-key">Páginas</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-val">+10</span>
+              <span class="spec-key">Ilustraciones</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-val">+10</span>
+              <span class="spec-key">Curiosidades</span>
+            </div>
+          </div>
+          <a href="https://heyzine.com/flip-book/d6b53dd0bb.html" class="p-btn p-btn-primary">
+            Libro Digital <i class="fas fa-book"></i>
+          </a>
+          <a href="#contacto-proy" class="p-btn p-btn-primary">
+            Solicitar ejemplar <i class="fas fa-book"></i>
+          </a>
+        </div>
+
+        <div class="p-col-6 proy-img p-reveal">
+          <div class="libro-mockup">
+            <img src="img/libro.png" alt="Libro Calles con Historia"/>
+            <div class="libro-spine"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="merch" id="merch">
+    <div class="p-container">
+
+      <div class="p-row p-justify-center">
+        <div class="p-col-8 p-section-header p-reveal">
+          <span class="p-section-label">Productos</span>
+          <h2>Merchandising</h2>
+          <p class="p-section-sub">Lleva Bogotá contigo — objetos que cuentan historias</p>
+        </div>
+      </div>
+
+      <div class="p-row">
+        <div class="p-col-12">
+          <div class="merch-grid">
+
+            <div class="merch-card p-reveal">
+              <div class="merch-img">
+                <img src="img/bitacora.jpeg" alt="Kit de Texturas" />
+              </div>
+              <div class="merch-info">
+                <h4>Kit de Texturas</h4>
+                <p>Colección de materiales que permite explorar y sentir las texturas 
+                  características de los espacios históricos del recorrido.</p>
+              </div>
+            </div>
+
+            <div class="merch-card p-reveal">
+              <div class="merch-img">
+                <img src="img/camiseta.png" alt="Camiseta"/>
+              </div>
+              <div class="merch-info">
+                <h4>Camiseta</h4>
+                <p>Prenda con diseño inspirado en la identidad gráfica del proyecto, 
+                  creada como recuerdo de la experiencia.</p>
+              </div>
+            </div>
+
+            <div class="merch-card p-reveal">
+              <div class="merch-img">
+                <img src="img/caja.png" alt="Empaque" />
+              </div>
+              <div class="merch-info">
+                <h4>Empaque</h4>
+                <p>Contenedor diseñado para organizar y proteger 
+                  todos los elementos que componen la experiencia.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="p-row">
+        <div class="p-col-12">
+          <div class="merch-grid-p">
+
+            <div class="merch-card p-reveal">
+              <div class="merch-img">
+                <img src="img/binoculares.png" alt="Binoculares" /> 
+              </div>
+              <div class="merch-info">
+                <h4>Binoculares</h4>
+                <p>Herramienta de observación que invita a 
+                  descubrir detalles arquitectónicos y patrimoniales del entorno.</p>
+              </div>
+            </div>
+
+            <div class="merch-card p-reveal">
+              <div class="merch-img">
+                <img src="img/fanzine.png" alt="Fanzine" />
+              </div>
+              <div class="merch-info">
+                <h4>Fanzine</h4>
+                <p>Publicación ilustrada que reúne mapas, datos 
+                  curiosos e historias sobre los lugares visitados.</p>
+              </div>
+            </div>
+
+            <div class="merch-card p-reveal">
+              <div class="merch-img">
+                <img src="img/postales.png" alt="Postales" />
+              </div>
+              <div class="merch-info">
+                <h4> Postales </h4>
+                <p>Tarjetas ilustradas que destacan los lugares más representativos del recorrido histórico. </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="p-row">
+        <div class="p-col-12">
+          <div class="merch-grid-p">
+
+            <div class="merch-card p-reveal">
+              <div class="merch-img">
+                <img src="img/separadores.png" alt="Separadores" /> 
+              </div>
+              <div class="merch-info">
+                <h4>Separadores</h4>
+                <p>Marcadores con ilustraciones y datos históricos 
+                  que acompañan la lectura y el aprendizaje.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="contacto" id="contacto-proy">
+    <div class="p-container">
+      <div class="p-row p-align-start">
+
+        <div class="p-col-4 contact-info p-reveal">
+          <span class="p-section-label">Hablemos</span>
+          <h2>¿Te interesa el proyecto?</h2>
+          <p>
+            Si quieres colaborar, adquirir el libro, solicitar una presentación
+            o saber más, escríbenos.
+          </p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>proyecto.notfound@gmail.com</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Bogotá, Colombia</span>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-instagram"></i>
+              <span>@notfoundstudio</span>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-instagram"></i>
+              <span>@callesconhistoria.bog</span>
+            </div>
+          </div>
+          <a href="index.html" class="p-btn p-btn-primary back-btn">
+            <i class="fas fa-arrow-left"></i> Volver a Not Found Studio
+          </a>
+        </div>
+
+        <div class="p-col-8 p-reveal">
+          <div class="contact-form">
+            <form id="contactFormProy"
+            action="https://formspree.io/f/xdarenpr"
+            method="POST"
+            novalidate>
+
+            <input type="hidden" name="_subject" value="Nuevo mensaje — Calles con Historia" />
+            <input type="hidden" name="_language" value="es" />
+
+              <div class="form-row">
+                <div class="p-col-6 form-group">
+                  <label for="p-nombre">Nombre</label>
+                  <input type="text" id="p-nombre" placeholder="Tu nombre" required />
+                  <span class="error-msg" id="error-p-nombre"></span>
+                </div>
+                <div class="p-col-6 form-group">
+                  <label for="p-apellido">Apellido</label>
+                  <input type="text" id="p-apellido" placeholder="Tu apellido" required />
+                  <span class="error-msg" id="error-p-apellido"></span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="p-correo">Correo electrónico</label>
+                <input type="email" id="p-correo" placeholder="tu@correo.com" required />
+                <span class="error-msg" id="error-p-correo"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="p-interes">Motivo de contacto</label>
+                <select id="p-interes">
+                  <option value="">Selecciona una opción...</option>
+                  <option>Adquirir el libro</option>
+                  <option>Comprar merchandising</option>
+                  <option>Colaboración / alianza</option>
+                  <option>Presentación del proyecto</option>
+                  <option>Otro</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="p-mensaje">Mensaje</label>
+                <textarea id="p-mensaje" rows="4" placeholder="Cuéntanos tu interés..." required></textarea>
+                <span class="error-msg" id="error-p-mensaje"></span>
+              </div>
+
+              <button type="submit" class="p-btn p-btn-primary p-btn-full">
+                Enviar mensaje <i class="fas fa-paper-plane"></i>
+              </button>
+              <div class="form-success" id="formSuccessProy">
+                <i class="fas fa-check-circle"></i>
+                ¡Mensaje enviado! Te contactamos pronto.
+              </div>
+
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="proy-footer">
+    <div class="p-container">
+      <div class="footer-inner">
+        <div class="footer-left">
+          <span class="footer-brand titulo">Calles con Historia</span>
+          <p>Un proyecto de <a href="index.html">Not Found Studio</a></p>
+        </div>
+        <p class="footer-copy">&copy; 2026 Not Found Studio. Todos los derechos reservados.</p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/callesconhistoria.bog?igsh=ZXhva2l5dGYxbDV5" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
